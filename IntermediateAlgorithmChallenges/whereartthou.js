@@ -5,12 +5,12 @@ function whereAreYou(collection, source) {
   
   for(var idx in collection){
     
-     var obj=collection[idx];
+      var obj=collection[idx];
      
     
-       // console.log(key+" "+obj[key]);    
+      // console.log(key+" "+obj[key]);    
          
-       var flag=1;
+      var flag=1;
       for(var name in source){
           
           if(obj.hasOwnProperty(name) && obj[name]==source[name]){
@@ -26,18 +26,18 @@ function whereAreYou(collection, source) {
                
        }
     
-    if(flag==1){
+       if(flag==1){
       
       // console.log("Yes");
-       arr.push(obj);
+         arr.push(obj);
        
        
-    } 
+       } 
        
     
    
     
-  }
+   }
   
   
   // Only change code above this line
