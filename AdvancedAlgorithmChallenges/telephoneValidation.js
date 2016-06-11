@@ -1,4 +1,7 @@
 /* Regex are very useful */
+
+/* Regex is fun */
+
 function telephoneCheck(str) {
   
    var regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
